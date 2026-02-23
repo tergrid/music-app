@@ -4,25 +4,19 @@ import { BackgroundGradient } from "./ui/background-gradient";
 import Link from "next/link";
 
 interface Course{
-      id: string,
-      title: string,
-      slug: string,
-      description: string,
-      instructor: string,
-      pricing: {
-        amount: number,
-        currency: string
-      },
-      duration: string,
-      level: string,
-      category: string,
-      rating: number,
-      enrollmentCount: number 
+    id: number,
+    title: string,
+    slug: string,
+    description: string,
+    price: number,
+    instructor: string,
+    isFeatured: boolean,
+        
 }
 
 export default function FeaturedCourses() {
 
-  const featuredCourses = courseData.courses.filter((course:Course) => course.enrollmentCount > 0)
+  const featuredCourses = courseData.courses.filter((course:Course) => course.isFeatured > 0)
 
   return (
     <div className="py-12">

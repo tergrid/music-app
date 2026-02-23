@@ -8,6 +8,9 @@ function Footer() {
         <div>3</div>
         <div>4</div>
       </div>
+      <div>
+      <p className="text-center text-xs pt-8">All Rights Reserved.</p>
+      </div>
       </footer>
     </div>
   )
