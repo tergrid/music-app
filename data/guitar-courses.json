@@ -1,0 +1,84 @@
+{
+  "courses": [
+    {
+      "id": "gc-001",
+      "title": "Beginner Guitar Fundamentals",
+      "slug": "beginner-guitar-fundamentals",
+      "description": "Learn the basics of playing guitar from scratch.",
+      "instructor": "Sarah Martinez",
+      "pricing": {
+        "amount": 49.99,
+        "currency": "USD"
+      },
+      "duration": "12 hours",
+      "level": "beginner",
+      "category": "Acoustic Guitar",
+      "rating": 4.7,
+      "enrollmentCount": 3542
+    },
+    {
+      "id": "gc-002",
+      "title": "Electric Guitar Mastery: Rock & Metal",
+      "slug": "electric-guitar-mastery-rock-metal",
+      "description": "Master rock and metal guitar techniques.",
+      "instructor": "Jake Thunder",
+      "pricing": {
+        "amount": 89.99,
+        "currency": "USD"
+      },
+      "duration": "20 hours",
+      "level": "intermediate",
+      "category": "Electric Guitar",
+      "rating": 4.9,
+      "enrollmentCount": 2187
+    },
+    {
+      "id": "gc-003",
+      "title": "Fingerstyle Guitar: Classical Techniques",
+      "slug": "fingerstyle-guitar-classical-techniques",
+      "description": "Develop elegant fingerstyle technique with classical methods.",
+      "instructor": "Dr. Elena Rossi",
+      "pricing": {
+        "amount": 129.99,
+        "currency": "USD"
+      },
+      "duration": "25 hours",
+      "level": "advanced",
+      "category": "Classical Guitar",
+      "rating": 5.0,
+      "enrollmentCount": 1456
+    },
+    {
+      "id": "gc-004",
+      "title": "Blues Guitar Essentials",
+      "slug": "blues-guitar-essentials",
+      "description": "Learn authentic blues guitar with classic licks and improvisation.",
+      "instructor": "Marcus Johnson",
+      "pricing": {
+        "amount": 69.99,
+        "currency": "USD"
+      },
+      "duration": "15 hours",
+      "level": "intermediate",
+      "category": "Blues Guitar",
+      "rating": 4.8,
+      "enrollmentCount": 2891
+    },
+    {
+      "id": "gc-005",
+      "title": "Jazz Guitar Fundamentals",
+      "slug": "jazz-guitar-fundamentals",
+      "description": "Introduction to jazz guitar covering chord voicings and comping.",
+      "instructor": "Thomas Fitzgerald",
+      "pricing": {
+        "amount": 149.99,
+        "currency": "USD"
+      },
+      "duration": "30 hours",
+      "level": "advanced",
+      "category": "Jazz Guitar",
+      "rating": 4.9,
+      "enrollmentCount": 987
+    }
+  ]
+}
